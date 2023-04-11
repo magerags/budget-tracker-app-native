@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "budget-tracker-app",
+    "name": "Budget Tracker",
     "slug": "budget-tracker-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tomwhittl.budget"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a8309691-948e-4d7f-84ab-a2510a1fb694"
+      }
     }
   }
 }
